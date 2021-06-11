@@ -8,6 +8,8 @@ import {light2} from  './directional_light.js';
 import {cylinder} from './roof.js';
 import {window1} from './window1.js';
 import {window2} from './window2.js';
+import { window3 } from './window3.js';
+import { doors } from './doors.js';
 
 
 // input segment
@@ -50,6 +52,8 @@ document.body.appendChild(renderer.domElement);
 cube.add(cylinder);
 cube.add(window1);
 cube.add(window2);
+cube.add(window3);
+cube.add(doors);
 scene.add(cube);
 scene.add(light);
 scene.add(light2);
