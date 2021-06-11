@@ -7,6 +7,7 @@ import {light} from './hemi_light.js';
 import {light2} from  './directional_light.js';
 import {cylinder} from './roof.js';
 import {window1} from './window1.js';
+import {window2} from './window2.js';
 
 
 // input segment
@@ -48,6 +49,7 @@ document.body.appendChild(renderer.domElement);
 //cube.add(line);
 cube.add(cylinder);
 cube.add(window1);
+cube.add(window2);
 scene.add(cube);
 scene.add(light);
 scene.add(light2);
