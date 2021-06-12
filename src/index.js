@@ -10,6 +10,8 @@ import {window1} from './window1.js';
 import {window2} from './window2.js';
 import { window3 } from './window3.js';
 import { doors } from './doors.js';
+import { window4 } from './window4.js';
+import { window5 } from './window5.js';
 
 
 // input segment
@@ -53,6 +55,8 @@ cube.add(cylinder);
 cube.add(window1);
 cube.add(window2);
 cube.add(window3);
+cube.add(window4);
+cube.add(window5);
 cube.add(doors);
 scene.add(cube);
 scene.add(light);
