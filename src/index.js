@@ -12,6 +12,7 @@ import { window3 } from './window3.js';
 import { doors } from './doors.js';
 import { window4 } from './window4.js';
 import { window5 } from './window5.js';
+import { earth } from './eartth.js';
 
 
 // input segment
@@ -58,6 +59,7 @@ cube.add(window3);
 cube.add(window4);
 cube.add(window5);
 cube.add(doors);
+cube.add(earth);
 scene.add(cube);
 scene.add(light);
 scene.add(light2);
