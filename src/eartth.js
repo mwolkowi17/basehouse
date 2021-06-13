@@ -9,5 +9,5 @@ export const earth = new THREE.Mesh(geometry, material);
 earth.rotation.x = -1.57;
 earth.position.y = -0.45;
 
-//earth.castShadow = true;
-//earth.receiveShadow = true;
+earth.castShadow = true;
+earth.receiveShadow = true;

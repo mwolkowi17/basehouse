@@ -7,5 +7,5 @@ const geometry = new THREE.BoxGeometry(width, height, depth);
 const material = new THREE.MeshPhongMaterial({ color: 0x00ff00 });
 
 export const cube = new THREE.Mesh(geometry, material);
-//cube.castShadow = true;
+cube.castShadow = true;
 //cube.receiveShadow = true;

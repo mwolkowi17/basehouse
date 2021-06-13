@@ -9,3 +9,4 @@ cylinder.scale.x = 0.7;
 cylinder.scale.y = 0.44;
 cylinder.scale.z = 0.5;
 cylinder.position.y=0.7;
+cylinder.castShadow = true;
