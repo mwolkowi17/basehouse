@@ -8,3 +8,6 @@ const material = new THREE.MeshPhongMaterial({ color: 0x38761d });
 export const earth = new THREE.Mesh(geometry, material);
 earth.rotation.x = -1.57;
 earth.position.y = -0.45;
+
+//earth.castShadow = true;
+//earth.receiveShadow = true;
