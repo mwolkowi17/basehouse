@@ -14,6 +14,7 @@ import { window4 } from './window4.js';
 import { window5 } from './window5.js';
 import { earth } from './eartth.js';
 import { komin } from './komin.js';
+import { treebottom1 } from './tree_bottom1.js';
 
 
 // input segment
@@ -63,6 +64,7 @@ cube.add(window5);
 cube.add(doors);
 cube.add(komin);
 cube.add(earth);
+cube.add(treebottom1);
 scene.add(cube);
 scene.add(light);
 scene.add(light2);
