@@ -11,3 +11,4 @@ export const treebottom2 = new THREE.Mesh(geometry, material);
 
 treebottom2.position.x=-2.7;
 treebottom2.position.z=2.5;
+treebottom2.castShadow = true;

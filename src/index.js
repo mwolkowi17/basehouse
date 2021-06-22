@@ -82,7 +82,7 @@ const controls = new OrbitControls( camera, renderer.domElement );
 //controls.update() must be called after any manual changes to the camera's transform
 //camera.position.set( 0, 20, 100 );
 controls.update();
-controls.autoRotate=true;
+controls.autoRotate=false;
 
 const animate = function () {
     requestAnimationFrame(animate);

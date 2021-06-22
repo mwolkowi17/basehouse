@@ -10,9 +10,11 @@ export const treetop1 = new THREE.Mesh(geometry, material);
 treetop1.position.x=-2;
 treetop1.position.z=2;
 treetop1.position.y=0.6;
+treetop1.castShadow = true;
 
 export const treetop2 = new THREE.Mesh(geometry, material);
 
 treetop2.position.x=-2.7;
 treetop2.position.z=2.5;
 treetop2.position.y=0.6;
+treetop2.castShadow = true;
