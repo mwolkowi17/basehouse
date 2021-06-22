@@ -17,6 +17,7 @@ import { komin } from './komin.js';
 import { treebottom1, treebootom3 } from './tree_bottom1.js';
 import { treebottom2 } from './tree_bottom2.js';
 import { treetop1, treetop2, treetop3 } from './tree_top1.js';
+import { road } from './road.js';
 
 
 // input segment
