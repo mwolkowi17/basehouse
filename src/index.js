@@ -16,6 +16,7 @@ import { earth } from './eartth.js';
 import { komin } from './komin.js';
 import { treebottom1 } from './tree_bottom1.js';
 import { treebottom2 } from './tree_bottom2.js';
+import { treetop1,treetop2 } from './tree_top1.js';
 
 
 // input segment
@@ -67,6 +68,8 @@ cube.add(komin);
 cube.add(earth);
 cube.add(treebottom1);
 cube.add(treebottom2);
+cube.add(treetop1);
+cube.add(treetop2);
 scene.add(cube);
 scene.add(light);
 scene.add(light2);
