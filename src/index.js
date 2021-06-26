@@ -19,6 +19,7 @@ import { treebottom2 } from './tree_bottom2.js';
 import { treetop1, treetop2, treetop3 } from './tree_top1.js';
 import { road } from './road.js';
 import { wallfront } from './wall_front.js';
+import { wallback } from './wall_back.js';
 
 
 // input segment
@@ -76,6 +77,7 @@ cube.add(treetop2);
 cube.add(treetop3);
 cube.add(road);
 cube.add(wallfront);
+cube.add(wallback);
 scene.add(cube);
 scene.add(light);
 scene.add(light2);
