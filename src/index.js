@@ -75,6 +75,7 @@ cube.add(treetop1);
 cube.add(treetop2);
 cube.add(treetop3);
 cube.add(road);
+cube.add(wallfront);
 scene.add(cube);
 scene.add(light);
 scene.add(light2);
