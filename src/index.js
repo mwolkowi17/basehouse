@@ -83,7 +83,8 @@ scene.add(light);
 scene.add(light2);
 scene.add(light2.target);
 
-camera.position.z = 5;
+camera.position.z = 8;
+camera.position.y = 1.5;
 
 const controls = new OrbitControls( camera, renderer.domElement );
 
