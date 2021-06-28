@@ -10,4 +10,5 @@ export const wallback = new THREE.Mesh(geometry, material);
 
 wallback.position.z = -1.5;
 wallback.position.x= -0.4;
-wallback.position.y= -0.24;
+wallback.position.y= -0.26;
+wallback.castShadow = true;
