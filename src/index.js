@@ -21,6 +21,7 @@ import { road } from './road.js';
 import { wallfront } from './wall_front.js';
 import { wallback } from './wall_back.js';
 import { wallleft, wallright } from './wall_sides.js';
+import { gate } from './gate.js';
 
 
 // input segment
@@ -81,6 +82,7 @@ cube.add(wallfront);
 cube.add(wallback);
 cube.add(wallleft);
 cube.add(wallright);
+cube.add(gate);
 scene.add(cube);
 scene.add(light);
 scene.add(light2);
