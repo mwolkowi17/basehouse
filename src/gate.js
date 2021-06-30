@@ -2,7 +2,7 @@ import * as THREE from 'three';
 
 const width = 0.3;
 const height = 0.6;
-const depth = 0.1;
+const depth = 0.05;
 const geometry5 = new THREE.BoxGeometry(width, height, depth);
 const material5 = new THREE.MeshPhongMaterial({ color: 0x713b1c });
 
