@@ -21,6 +21,6 @@ export const wallfrontB = new THREE.Mesh(geometry, material);
 
 wallfrontB.position.z = 4.5;
 //wallfront.position.x= -0.4;
-wallfrontB.position.x= -1.7;
+wallfrontB.position.x= 0.905;
 wallfrontB.position.y= -0.26;
 wallfrontB.castShadow = true;

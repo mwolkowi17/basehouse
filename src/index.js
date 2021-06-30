@@ -18,7 +18,7 @@ import { treebottom1, treebootom3 } from './tree_bottom1.js';
 import { treebottom2 } from './tree_bottom2.js';
 import { treetop1, treetop2, treetop3 } from './tree_top1.js';
 import { road } from './road.js';
-import { wallfront } from './wall_front.js';
+import { wallfront,wallfrontB } from './wall_front.js';
 import { wallback } from './wall_back.js';
 import { wallleft, wallright } from './wall_sides.js';
 import { gate } from './gate.js';
@@ -54,7 +54,7 @@ const btnopen = document.getElementById("gateopen");
 
 btnopen.addEventListener("click", function(){
     console.log("otwarte")
-    gate.position.x = -0.6
+    gate.position.x = -0.67
 })
 
 const btnclose = document.getElementById("gateclose");
@@ -92,6 +92,7 @@ cube.add(treetop2);
 cube.add(treetop3);
 cube.add(road);
 cube.add(wallfront);
+cube.add(wallfrontB);
 cube.add(wallback);
 cube.add(wallleft);
 cube.add(wallright);
