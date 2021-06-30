@@ -50,6 +50,19 @@ btnposition.addEventListener("click", function(){
 })
 //cube.position.x=2; do zrobienia
 
+const btnopen = document.getElementById("gateopen");
+
+btnopen.addEventListener("click", function(){
+    console.log("otwarte")
+    gate.position.x = -0.6
+})
+
+const btnclose = document.getElementById("gateclose");
+
+btnclose.addEventListener("click", function(){
+    console.log("zamknięte");
+    gate.position.x = -0.4;
+})
 
 
 
