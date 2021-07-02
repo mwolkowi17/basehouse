@@ -5,4 +5,11 @@ body {
 #gateopen{
     position:absolute;
     bottom: 25px;
+    left: 40px;
+}
+
+#gateclose{
+    position: absolute;
+    bottom: 25px;
+    left: 100px;
 }
